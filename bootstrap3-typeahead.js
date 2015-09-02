@@ -78,8 +78,7 @@
       if(this.autoSelect || val) {
         var newVal = this.updater(val);
         this.$element
-          .val('')
-          //.val(this.displayText(newVal) || newVal)
+          .val(this.displayText(newVal) || newVal)
           .change();
         this.afterSelect(newVal);
       }

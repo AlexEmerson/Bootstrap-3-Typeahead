@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 			config: ".jscsrc",
 		}
 	},
-    uglify: {
+  uglify: {
       options: {
         preserveComments: 'some'
       },
@@ -32,7 +32,7 @@ module.exports = function (grunt) {
         'bootstrap3-typeahead.min.js': ['bootstrap3-typeahead.js']
       }
 	  }
-    }
+  }
   });
 
 
